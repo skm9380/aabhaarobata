@@ -6,8 +6,8 @@
 <title>Aabaa Robata</title>
 <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
 
-<script src="/js/jquery.min.js"></script>
-<script src="/js/jquery.Jcrop.js"></script>
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery.Jcrop.js"></script>
 <script type="text/javascript">
 	var imageID = 0;
 	jQuery(function($) {
