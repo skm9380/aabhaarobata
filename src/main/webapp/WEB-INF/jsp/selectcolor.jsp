@@ -167,7 +167,7 @@
 													.ajax({
 														type : "POST",
 														enctype : 'multipart/form-data',
-														url : "/uploadfile",
+														url : "uploadfile",
 														data : data,
 
 														processData : false,
@@ -178,7 +178,7 @@
 															if (data.statusMsg == 'OK') {
 
 																imageID = data.fileID;
-																var newSrc = '/processedimages/'
+																var newSrc = 'processedimages/'
 																		+ imageID
 																		+ '/original';
 
@@ -267,7 +267,7 @@
 													.ajax({
 														type : "POST",
 														enctype : 'multipart/form-data',
-														url : "/processimage",
+														url : "processimage",
 														data : data,
 
 														processData : false,
@@ -282,7 +282,7 @@
 																		.text(
 																				data.statusMsg);
 
-																var newSrc = '/processedimages/'
+																var newSrc = 'processedimages/'
 																		+ imageID
 																		+ '/processedselectedcolor';
 																d = new Date();
