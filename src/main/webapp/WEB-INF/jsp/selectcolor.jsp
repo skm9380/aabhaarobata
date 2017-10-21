@@ -5,6 +5,9 @@
 <title>Aabaa Robata</title>
 <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
 
+<link rel="shortcut icon"
+ href="favicon.ico">
+ 
 <script src="js/jquery.min.js"></script>
 <script src="js/jquery.Jcrop.js"></script>
 <script type="text/javascript">
